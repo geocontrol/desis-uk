@@ -10,27 +10,23 @@
 	    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 	    <style type="text/css">
 	      body {
-
 	        padding-bottom: 40px;
 	      }
-
-	      /* Custom container */
-	      .container-narrow {
-	        margin: 0 auto;
-	        max-width: 700px;
-	      }
-	      .container-narrow > hr {
-	        margin: 30px 0;
-	      }
 	
-	      .content {
-		     margin: 0 auto;
-		     max-width: 80%;
-      	   }
+		/* Custom container */
+	      .container-custom {
+	        margin: 0 auto;
+	        max-width: 90%;
+	      }
+
+		.content {
+			margin: 0 auto;
+			max-width: 76%;
+		}
 
 	      /* Main marketing message and sign up button */
 	      .jumbotron {
-	        margin: 60px 0;
+	        margin: 40px 0;
 	        text-align: center;
 	      }
 
@@ -60,8 +56,29 @@
 	
 	      .footer {
 		    padding-top: 30px;
-     	  }	
+     	  }
 	    </style>
+	
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		    <!--[if lt IE 9]>
+		      <script src="../assets/js/html5shiv.js"></script>
+		    <![endif]-->
+	
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39069386-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
 
   </head>
   <body>
@@ -80,7 +97,7 @@
 	      </div>
 	    </div>
 
-	<div class="container">
+	<div class="container-custom">
 		
 		<div class="jumbotron">
     		<p class="logo"><img src="images/desis-logo.png" height="114" width="250"></p>
@@ -100,10 +117,11 @@
 
 				<p>DESIS-UK Network will link up with the International DESIS network of design 'labs', comprised of teams of professors, researchers and design students active in the promotion and delivery of design led social innovation for sustainability creating further opportunities for exchange and collaboration.</p>
 
+				<!-- Logos here -->
 		</div>
 		
 		<div class="footer">
-			<p>footer text here</p>
+			<!--<p>footer text here</p>-->
 		</div>
 	</div> <!-- /container -->
 
